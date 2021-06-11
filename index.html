@@ -68,7 +68,12 @@
 
     <script src="lob/func.js"></script>
     <script>
-        
+        var v1 = document.getElementById('v1');
+        var v2 = document.getElementById('v2');
+        var output = document.getElementById('output');
+        document.getElementById('btn').onclick=()=>{
+            output.textContent=C(v1,v2);
+        }
     </script>
 </body>
 
